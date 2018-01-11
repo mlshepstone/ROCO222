@@ -177,7 +177,7 @@ Using this program we wereable to estimat estimate the motor we used to have a a
 1. Install the motor shield
 2. Control a small hobby DC motor
 
-The audino motor shield was installed onto the audino by carefully alighning the pins on the sheild with the coreresponding portson the audino. The following code was used to run a motor using channel A:
+The audino motor shield was installed onto the audino by carefully alighning the pins on the sheild with the coreresponding portson the audino. The following code was used to run the motor.
 
 ```cpp
 /*************************************************************
@@ -212,7 +212,7 @@ void loop(){
   delay(1000);
 }
 ```
-To change the motors direction you would change the value of pin 12, where a HIGH would turn it in one direction which was refered to as forward, and a LOW would turn it in the opiste direction wich we refered to as backward. To change the speed of the motor you write a value of 0-255 to pin 3 with 255 being at full speed speed and 0 off (motionless).
+To change the motors direction you would change the value of pin 12, where a HIGH would turn it in one direction which was refered to as forward, and a LOW would turn it in the opiste direction wich we refered to as backward. To change the speed of the motor you write a value of 0-255 to pin 3 with 255 being at full speed and 0 being off (motionless).
 
 3. Get your DC motor to rotate 
 4. Close the loop
